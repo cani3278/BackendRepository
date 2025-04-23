@@ -45,7 +45,7 @@ namespace Dal.Services
 
         public List<Order> Get()
         {
-         var list=   dbcontext.Orders.Include(x=>x.OrderDetails).ToList();
+         var list=   dbcontext.Orders.ToList();//Include(x=>x.OrderDetails).
             var x = list;
             //foreach (var item in list)
             //{

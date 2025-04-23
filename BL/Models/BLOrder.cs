@@ -14,7 +14,7 @@ namespace BL.Models
 
         //public string? OrdersDetails { get; set; }
 
-        public DateOnly OrderDate { get; set; }
+        public string OrderDate { get; set; }
 
         public int CustId { get; set; }
 
@@ -28,6 +28,7 @@ namespace BL.Models
         {
             this.OrderId = o.OrderId;
             this.CustId = o.CustId;
+            this.OrderDate = o.OrderDate;
             this.PaymentType = o.PaymentType;
             this.Sent = o.Sent;
         }

@@ -7,7 +7,7 @@ public partial class Order
 {
     public int OrderId { get; set; }
 
-    public DateOnly? OrderDate { get; set; }
+    public string? OrderDate { get; set; }
 
     public int CustId { get; set; }
 
@@ -22,8 +22,4 @@ public partial class Order
     public virtual Customer Cust { get; set; } = null!;
 
     public virtual Employee Emp { get; set; } = null!;
-
-    public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
-
-    public virtual ICollection<Table> Tables { get; set; } = new List<Table>();
 }

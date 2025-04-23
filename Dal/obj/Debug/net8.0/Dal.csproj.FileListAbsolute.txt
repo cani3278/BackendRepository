@@ -26,3 +26,4 @@ D:\GitHubמה שקיים ב - Copy\c#\Dal\obj\Debug\net8.0\refint\Dal.dll
 D:\GitHubמה שקיים ב - Copy\c#\Dal\obj\Debug\net8.0\Dal.pdb
 D:\GitHubמה שקיים ב - Copy\c#\Dal\obj\Debug\net8.0\Dal.genruntimeconfig.cache
 D:\GitHubמה שקיים ב - Copy\c#\Dal\obj\Debug\net8.0\ref\Dal.dll
+D:\GitHubמה שקיים ב - Copy\c#\Dal\obj\Debug\net8.0\Dal.sourcelink.json

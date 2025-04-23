@@ -826,7 +826,7 @@
           },
           "orderDate": {
             "type": "string",
-            "format": "date"
+            "nullable": true
           },
           "custId": {
             "type": "integer",

@@ -15,7 +15,5 @@ public partial class OrderDetail
 
     public int? Cost { get; set; }
 
-    public virtual Order Order { get; set; } = null!;
-
     public virtual ProductsSum Prod { get; set; } = null!;
 }

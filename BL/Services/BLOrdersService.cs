@@ -33,10 +33,15 @@ namespace BL.Services
         //}
         public int Add(int custId)
         {
-            Order o = new()
+            DateTime dt=DateTime.Now;
+            Console.WriteLine("DateTime in Normal format: ");
+            string sqlFormattedDate=dt.ToString("yyyy-MM-dd HH:mm:ss");
+            Console.WriteLine("DateTime in SQL format: ");
+            
+                        Order o = new()
             {
                 
-                OrderDate =new DateOnly(),
+                OrderDate= DateOnly.FromDateTime(DateTime.Today).ToShortDateString(),
                 CustId = custId,
                 EmpId = dal.Employees.AvailableEmployee().EmpId,
                 //PaymentType = bLOrder.PaymentType,

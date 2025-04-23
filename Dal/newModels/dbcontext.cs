@@ -29,7 +29,7 @@ public partial class dbcontext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\CPC#PROJECT\\data2\\dbProject.mdf;Integrated Security=True;Connect Timeout=30");
+        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\CPC#PROJECT\\data2\\dbProject.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -67,8 +67,9 @@ public partial class dbcontext : DbContext
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => e.OrderId).HasName("PK__Orders__C3905BCF9AC08C3A");
+            entity.HasKey(e => e.OrderId).HasName("PK__Orders__C3905BCFA3EC6A01");
 
+            entity.Property(e => e.OrderDate).HasMaxLength(50);
             entity.Property(e => e.PaymentType)
                 .HasMaxLength(50)
                 .HasColumnName("paymentType");
@@ -82,12 +83,12 @@ public partial class dbcontext : DbContext
             entity.HasOne(d => d.Cust).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.CustId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Orders__CustId__14270015");
+                .HasConstraintName("FK__Orders__CustId__2EDAF651");
 
             entity.HasOne(d => d.Emp).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.EmpId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Orders__EmpId__151B244E");
+                .HasConstraintName("FK__Orders__EmpId__2FCF1A8A");
         });
 
         modelBuilder.Entity<OrderDetail>(entity =>
@@ -95,11 +96,6 @@ public partial class dbcontext : DbContext
             entity.HasKey(e => e.Id).HasName("PK__OrderDet__3214EC0753BEA1DE");
 
             entity.ToTable("OrderDetail");
-
-            entity.HasOne(d => d.Order).WithMany(p => p.OrderDetails)
-                .HasForeignKey(d => d.OrderId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__OrderDeta__Order__1F98B2C1");
 
             entity.HasOne(d => d.Prod).WithMany(p => p.OrderDetails)
                 .HasForeignKey(d => d.ProdId)
@@ -133,11 +129,6 @@ public partial class dbcontext : DbContext
             entity.HasKey(e => e.Id).HasName("PK__Table__3214EC074619E7C4");
 
             entity.ToTable("Table");
-
-            entity.HasOne(d => d.Order).WithMany(p => p.Tables)
-                .HasForeignKey(d => d.OrderId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Table__OrderId__1BC821DD");
 
             entity.HasOne(d => d.Prod).WithMany(p => p.Tables)
                 .HasForeignKey(d => d.ProdId)

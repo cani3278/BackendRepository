@@ -300,3 +300,4 @@ D:\GitHubמה שקיים ב - Copy\c#\CPC#PROJECT\obj\Debug\net8.0\refint\Server
 D:\GitHubמה שקיים ב - Copy\c#\CPC#PROJECT\obj\Debug\net8.0\Server.pdb
 D:\GitHubמה שקיים ב - Copy\c#\CPC#PROJECT\obj\Debug\net8.0\Server.genruntimeconfig.cache
 D:\GitHubמה שקיים ב - Copy\c#\CPC#PROJECT\obj\Debug\net8.0\ref\Server.dll
+D:\GitHubמה שקיים ב - Copy\c#\CPC#PROJECT\obj\Debug\net8.0\Server.sourcelink.json
