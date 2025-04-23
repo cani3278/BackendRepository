@@ -11,7 +11,8 @@ namespace Dal.Api
     {
 
         List<ProductsSum> Get();
-        void Remove(int prod, int count);
+        List<ProductsSum> RemoveFromActualList(int prodId);
+        List<ProductsSum> UpdateSum(int prodId, int count);
         List<ProductsSum> Add(ProductsSum product);
         List<ProductsSum> Update(ProductsSum product);
 

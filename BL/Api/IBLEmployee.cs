@@ -12,6 +12,6 @@ namespace BL.Api
         List<BLEmployee> Get();
        BLEmployee  GetById(int id);
 
-        void Create(BLEmployee item);
+        BLEmployee Create(BLEmployee item);
     }
 }

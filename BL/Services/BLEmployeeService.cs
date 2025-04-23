@@ -17,9 +17,9 @@ namespace BL.Services
         public BLEmployeeService(IDal dal) { 
             this.dal = dal;
         }
-        public void Create(BLEmployee bLEmp)
+        public BLEmployee Create(BLEmployee bLEmp)
         {
-            Employee e = new Employee()
+            Employee e = new()
             {
                 EmpId = bLEmp.EmpId,
                // EmpNum = bLEmp.EmpNum,
@@ -28,6 +28,7 @@ namespace BL.Services
                 Ephone = bLEmp.Ephone,
             };
             dal.Employees.Add(e);
+            return new BLEmployee(dal.Employees.getByID(bLEmp.EmpId));
         }
 
         public List<BLEmployee> Get()

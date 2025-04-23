@@ -40,7 +40,7 @@ namespace CPC_PROJECT.Controllers
         [HttpPost("update")]
         public IActionResult Update([FromBody] BLCustomer newCustomer)
         {
-            return Ok(customers.Create(newCustomer));
+            return Ok(customers.Update(newCustomer));
 
         }
 

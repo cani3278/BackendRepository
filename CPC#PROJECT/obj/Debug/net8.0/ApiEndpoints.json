@@ -74,6 +74,22 @@
   },
   {
     "ContainingType": "CPC_PROJECT.Controllers.EmployeeController",
+    "Method": "Create",
+    "RelativePath": "api/Employee/AddEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newEmp",
+        "Type": "BL.Models.BLEmployee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CPC_PROJECT.Controllers.EmployeeController",
     "Method": "Get",
     "RelativePath": "api/Employee/GetAll",
     "HttpMethod": "GET",
@@ -84,7 +100,7 @@
   },
   {
     "ContainingType": "CPC_PROJECT.Controllers.EmployeeController",
-    "Method": "logIn",
+    "Method": "LogIn",
     "RelativePath": "api/Employee/logIn/{id}/{name}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -98,32 +114,6 @@
       {
         "Name": "name",
         "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "BL.Models.BLEmployee",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CPC_PROJECT.Controllers.EmployeeController",
-    "Method": "create",
-    "RelativePath": "api/Employee/logOn",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "newEmp",
-        "Type": "BL.Models.BLEmployee",
         "IsRequired": true
       }
     ],
@@ -302,12 +292,95 @@
   },
   {
     "ContainingType": "CPC_PROJECT.Controllers.ProductsController",
+    "Method": "Delete",
+    "RelativePath": "api/Products/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BL.Models.BLProduct, BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPC_PROJECT.Controllers.ProductsController",
     "Method": "Get",
     "RelativePath": "api/Products/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BL.Models.BLProduct, BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPC_PROJECT.Controllers.ProductsController",
+    "Method": "Update",
+    "RelativePath": "api/Products/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "BL.Models.BLProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BL.Models.BLProduct, BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CPC_PROJECT.Controllers.ProductsController",
+    "Method": "UpdateAmount",
+    "RelativePath": "api/Products/UpdateAmount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.List\u00601[[BL.Models.BLProduct, BL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

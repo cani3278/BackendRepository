@@ -11,8 +11,9 @@ namespace BL.Api
  public   interface IBLProducts
     {
         List<BLProduct> Get();
-        void Remove(int prod, int count);
+        List<BLProduct> DeleteFromList(int prod);
         List<BLProduct> Add(BLProduct product);
+        List<BLProduct> UpdateAmount(int prodId,int amount);
         List<BLProduct> Update(BLProduct product);
     }
 }

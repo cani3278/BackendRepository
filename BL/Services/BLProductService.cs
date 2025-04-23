@@ -20,7 +20,7 @@ namespace BL.Services
 
         public List<BLProduct> Add(BLProduct product)
         {
-            ProductsSum DalProduct = new ProductsSum()
+            ProductsSum DalProduct = new()
             {
                  ProdId =product.ProdId,
                 Pname=product.Pname,
@@ -34,6 +34,12 @@ namespace BL.Services
             return Get();
         }
 
+        public List<BLProduct> DeleteFromList(int prod)
+        {
+            dal.Products.RemoveFromActualList(prod);
+            return Get();
+        }
+
         public List<BLProduct> Get()
         {
             List<BLProduct> list = new();
@@ -44,14 +50,29 @@ namespace BL.Services
             return list;
         }
 
-        public void Remove(int prod, int count)
-        {
-            throw new NotImplementedException();
-        }
 
         public List<BLProduct> Update(BLProduct product)
         {
-            throw new NotImplementedException();
+            ProductsSum dalProd = new ProductsSum()
+            {
+                ProdId = product.ProdId,
+                Pname = product.Pname,
+                Psum = product.Psum,
+                Pimporter = product.Pimporter,
+                Pcompany = product.Pcompany,
+                Pdescription = product.Pdescription,
+                Ppicture = product.Ppicture
+
+            };
+            dal.Products.Update(dalProd);
+            return Get();
+            
+        }
+
+        public List<BLProduct> UpdateAmount(int prodId, int amount)
+        {
+             dal.Products.UpdateSum(prodId,amount);
+            return Get();
         }
     }
 }

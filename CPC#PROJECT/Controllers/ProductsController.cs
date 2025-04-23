@@ -23,6 +23,21 @@ namespace CPC_PROJECT.Controllers
         {
             return products.Add(p);
         }
+        [HttpPut("Update")]
+        public List<BLProduct> Update(BLProduct p)
+        {
+            return products.Update(p);
+        }
+        [HttpPut("UpdateAmount")]
+        public List<BLProduct> UpdateAmount(int p,int amount)
+        {
+            return products.UpdateAmount(p,amount);
+        }
+        [HttpDelete("Delete")]
+        public List<BLProduct> Delete(int p)
+        {
+            return products.DeleteFromList(p);
+        }
 
 
     }

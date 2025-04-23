@@ -23,20 +23,18 @@ namespace CPC_PROJECT.Controllers
         }
         //logIn
         [HttpGet("logIn/{id}/{name}")]
-        public BLEmployee logIn(int id, string name)
+        public BLEmployee LogIn(int id, string name)
         {
             BLEmployee a = Employees.GetById(id);
             if (a.Ename == name)
                 return a;
             else return null;
         }
-        //logOn
-        [HttpPost("logOn")]
-        public BLEmployee create([FromBody] BLEmployee newEmp)
+        //add
+        [HttpPost("AddEmployee")]
+        public IActionResult Create([FromBody] BLEmployee newEmp)
         {
-            Employees.Create(newEmp);
-            return Employees.GetById(newEmp.EmpId);
-
+           return Ok(  Employees.Create(newEmp));
         }
 
     }
