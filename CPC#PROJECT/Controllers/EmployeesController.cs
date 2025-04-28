@@ -15,7 +15,7 @@ namespace CPC_PROJECT.Controllers
         {
             Employees = manager.Employees;
         }
-        // להחזיר רשימת לקוחות
+        // להחזיר רשימת עובדים
         [HttpGet("GetAll")]
         public IActionResult Get()
         {

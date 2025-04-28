@@ -1,5 +1,88 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "img/shutterstock_796627.8i7is4hpio.jpg",
+      "AssetFile": "img/shutterstock_796627.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12729675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gI3Ej65n7rn4/wKAB+zvIKr4/OWdzlD/7TfvddmVVKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jul 2011 00:32:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8i7is4hpio"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gI3Ej65n7rn4/wKAB+zvIKr4/OWdzlD/7TfvddmVVKw="
+        },
+        {
+          "Name": "label",
+          "Value": "img/shutterstock_796627.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/shutterstock_796627.jpg",
+      "AssetFile": "img/shutterstock_796627.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12729675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gI3Ej65n7rn4/wKAB+zvIKr4/OWdzlD/7TfvddmVVKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jul 2011 00:32:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gI3Ej65n7rn4/wKAB+zvIKr4/OWdzlD/7TfvddmVVKw="
+        }
+      ]
+    }
+  ]
 }

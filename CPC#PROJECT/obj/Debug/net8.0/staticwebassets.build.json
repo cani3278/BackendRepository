@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "Msj1GGVGID5rXoZaj7mjcmskldbr9uoRoMjfsTcpitQ=",
+  "Hash": "BF7z67T/RHj5quqnQQlZvTf4NH9o1jWfMJ7oofeQ/QU=",
   "Source": "Server",
   "BasePath": "_content/Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Server\\wwwroot",
+      "Source": "Server",
+      "ContentRoot": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\shutterstock_796627.jpg",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "img/shutterstock_796627#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8i7is4hpio",
+      "Integrity": "gI3Ej65n7rn4/wKAB+zvIKr4/OWdzlD/7TfvddmVVKw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\shutterstock_796627.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "img/shutterstock_796627.8i7is4hpio.jpg",
+      "AssetFile": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\shutterstock_796627.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12729675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gI3Ej65n7rn4/wKAB+zvIKr4/OWdzlD/7TfvddmVVKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jul 2011 00:32:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8i7is4hpio"
+        },
+        {
+          "Name": "label",
+          "Value": "img/shutterstock_796627.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gI3Ej65n7rn4/wKAB+zvIKr4/OWdzlD/7TfvddmVVKw="
+        }
+      ]
+    },
+    {
+      "Route": "img/shutterstock_796627.jpg",
+      "AssetFile": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\shutterstock_796627.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12729675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gI3Ej65n7rn4/wKAB+zvIKr4/OWdzlD/7TfvddmVVKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 11 Jul 2011 00:32:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gI3Ej65n7rn4/wKAB+zvIKr4/OWdzlD/7TfvddmVVKw="
+        }
+      ]
+    }
+  ]
 }
