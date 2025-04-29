@@ -12,10 +12,10 @@ namespace BL.Services
 {
     public class BLOrdersService : IBLOrders
     {
-        IDal dal;
+        IDal Dal;
         public BLOrdersService(IDal dal)
         {
-            this.dal = dal;
+            this.Dal = dal;
         }
         //public void Add(BLOrder bLOrder)
         //{
@@ -43,11 +43,11 @@ namespace BL.Services
                 
                 OrderDate= DateOnly.FromDateTime(DateTime.Today).ToShortDateString(),
                 CustId = custId,
-                EmpId = dal.Employees.AvailableEmployee().EmpId,
+                EmpId = Dal.Employees.AvailableEmployee().EmpId,
                 //PaymentType = bLOrder.PaymentType,
                 Sent = false
             };
-           return  dal.Orders.Create(o);
+           return  Dal.Orders.Create(o);
         }
 
         public List<BLOrder> addDetails(List<BLOrderDetail> list,int orderId)
@@ -63,47 +63,53 @@ namespace BL.Services
                 };
                 dalList.Add(od);
             }
-            dal.OrderDetail.addDetailsForOrder(dalList);
+            Dal.OrderDetail.addDetailsForOrder(dalList);
             return Get();
         }
 
         public void deleteAll()
         {
-            dal.Orders.Delete();
+            Dal.Orders.Delete();
         }
 
         public List<BLOrder> Get()
         {
-         List<Order>  dallist=dal.Orders.Get();
+         List<Order>  dallist=Dal.Orders.Get();
          List<BLOrder>  bllist=new();
 
             foreach (var item in dallist)
             {
-                bllist.Add(new BLOrder(item));
+               string email= Dal.Employees.getByID(item.EmpId).Egmail;
+               string name= Dal.Employees.getByID(item.EmpId).Ename;
+                bllist.Add(new BLOrder(item,email,name));
             }
             return bllist;
         }
 
         public List<BLOrder> GetForCustomer(int custId)
         {
-            List<Order> dallist = dal.Orders.GetForCustomer(custId);
+            List<Order> dallist = Dal.Orders.GetForCustomer(custId);
             List<BLOrder> bllist = new();
-
+            
             foreach (var item in dallist)
             {
-                bllist.Add(new BLOrder(item));
+                string email = Dal.Employees.getByID(item.EmpId).Egmail;
+                string name = Dal.Employees.getByID(item.EmpId).Ename;
+                bllist.Add(new BLOrder(item,email,name));
             }
             return bllist;
         }
 
         public List<BLOrder> GetForEmployee(int empId)
         {
-            List<Order> dallist = dal.Orders.GetForEmployee(empId);
+            List<Order> dallist = Dal.Orders.GetForEmployee(empId);
             List<BLOrder> bllist = new();
 
             foreach (var item in dallist)
             {
-                bllist.Add(new BLOrder(item));
+                string email = Dal.Employees.getByID(item.EmpId).Egmail;
+                string name = Dal.Employees.getByID(item.EmpId).Ename;
+                bllist.Add(new BLOrder(item, email, name));
             }
             return bllist;
         }
