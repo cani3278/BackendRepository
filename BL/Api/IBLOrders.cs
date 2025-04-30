@@ -13,9 +13,9 @@ namespace BL.Api
         //void Add(BLOrder bLOrder);
         int Add(int custId);
         List<BLOrder> addDetails(List<BLOrderDetail> list,int orderId);
-
-       List<BLOrder> Get();
-        void deleteAll();
+        void UpdateSending(int orderId);
+        List<BLOrder> Get();
+        void DeleteAll();
         List<BLOrder> GetNews();
         List<BLOrder> GetForCustomer(int custId);
         List<BLOrder> GetForEmployee(int empId);

@@ -19,22 +19,12 @@ namespace Dal.Services
         }
 
 
-
-        //public void Create(Order o,List< OrderDetail>  od)
-        //{
-        //    dbcontext.Orders.Add(o);
-        //    od.ForEach(item => dbcontext.OrderDetails.Add(item));
-        //    dbcontext.SaveChanges();
-
-        //}
         public int Create(Order o)
         {
           var x=  dbcontext.Orders.Add(o);
           dbcontext.SaveChanges();
            
           return  dbcontext.Orders.ToList().Last().OrderId ;
-           
-
         }
 
         public void Delete()
@@ -45,12 +35,7 @@ namespace Dal.Services
 
         public List<Order> Get()
         {
-         var list=   dbcontext.Orders.ToList();//Include(x=>x.OrderDetails).
-            var x = list;
-            //foreach (var item in list)
-            //{
-            //    item.OrderDetails = dbcontext.OrderDetails.ToList().Where(i => i.OrderId == item.OrderId).ToList();  
-            //}
+         var list=   dbcontext.Orders.ToList();
             return list;
         }
 
@@ -59,13 +44,7 @@ namespace Dal.Services
             List<Order> list= dbcontext.Orders.ToList();
             List<Order> custList = list.Where(a => a.CustId == custId)
           .OrderBy(a => a.OrderDate).ToList();
-            //.ForEach( item => item.OrderDetails = dbcontext.OrderDetails.ToList().Where(i => i.OrderId == item.OrderId).ToList())
-         /*   foreach (var item in custList)
-            {
-                item.OrderDetails = dbcontext.OrderDetails.ToList().Where(i => i.OrderId == item.OrderId).ToList();
-            }*/
-
-            return custList;
+           return custList;
 
         }
 
@@ -82,7 +61,13 @@ namespace Dal.Services
             throw new NotImplementedException();
         }
 
-      
+        public void UpdateSending(int orderId)
+        {
+            dbcontext.Orders.ToList().Find(e => e.OrderId == orderId).Sent =true;
+            dbcontext.SaveChanges();
+        }
+
+
 
         //List<Order> IDalOrders.Get()
         //{

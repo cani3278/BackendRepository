@@ -13,24 +13,12 @@ namespace BL.Services
     public class BLOrdersService : IBLOrders
     {
         IDal Dal;
+
         public BLOrdersService(IDal dal)
         {
             this.Dal = dal;
         }
-        //public void Add(BLOrder bLOrder)
-        //{
-        //    Order o = new()
-        //    {
-        //        OrderId = bLOrder.OrderId,
-        //       //OrdersDetais = bLOrder.OrdersDetais,
-        //        OrderDate = bLOrder.OrderDate,
-        //        CustId = bLOrder.CustId,
-        //        EmpId = bLOrder.EmpId,
-        //        PaymentType = bLOrder.PaymentType,
-        //        Sent = bLOrder.Sent
-        //    };
-        //   // dal.Orders.Create(o, bLOrder.OrderDetails);
-        //}
+
         public int Add(int custId)
         {
             DateTime dt=DateTime.Now;
@@ -72,6 +60,11 @@ namespace BL.Services
             Dal.Orders.Delete();
         }
 
+        public void DeleteAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<BLOrder> Get()
         {
          List<Order>  dallist=Dal.Orders.Get();
@@ -107,16 +100,23 @@ namespace BL.Services
 
             foreach (var item in dallist)
             {
-                string email = Dal.Employees.getByID(item.EmpId).Egmail;
-                string name = Dal.Employees.getByID(item.EmpId).Ename;
+                string email = Dal.Customers.Get().ToList().Find(cust=>cust.CustId==item.CustId).CustEmail;
+                string name = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustName;
                 bllist.Add(new BLOrder(item, email, name));
             }
             return bllist;
         }
-
+        
         public List<BLOrder> GetNews()
         {
             throw new NotImplementedException();
+        }
+        //the employee update about  sending the order
+        public void UpdateSending(int orderId)
+        {
+            Dal.Orders.UpdateSending(orderId);
+            //List<OrderDetail> sendingProducts = Dal.Orders.Get().ToList().Find(p => p.OrderId == orderId).orderdetails;
+            //Dal.Products.UpdateAmount(prodId);
         }
     }
 }

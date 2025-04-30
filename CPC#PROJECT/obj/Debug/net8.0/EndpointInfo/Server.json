@@ -295,33 +295,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BLOrder"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BLOrder"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BLOrder"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -430,33 +404,30 @@
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BLOrder"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BLOrder"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BLOrder"
-                  }
-                }
-              }
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Orders/updateSending/{orderId}": {
+      "put": {
+        "tags": [
+          "Orders"
+        ],
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -492,6 +463,46 @@
                   "items": {
                     "$ref": "#/components/schemas/BLProduct"
                   }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Products/GetByID/{id}": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BLProduct"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BLProduct"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BLProduct"
                 }
               }
             }
@@ -552,6 +563,38 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/Products/AddFile": {
+      "post": {
+        "tags": [
+          "Products"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -816,45 +859,6 @@
         },
         "additionalProperties": false
       },
-      "BLOrder": {
-        "type": "object",
-        "properties": {
-          "orderId": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "orderDate": {
-            "type": "string",
-            "nullable": true
-          },
-          "custId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "empId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "empEmail": {
-            "type": "string",
-            "nullable": true
-          },
-          "empName": {
-            "type": "string",
-            "nullable": true
-          },
-          "paymentType": {
-            "type": "string",
-            "nullable": true
-          },
-          "sent": {
-            "type": "boolean",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "BLOrderDetail": {
         "type": "object",
         "properties": {
@@ -909,8 +913,13 @@
             "type": "string",
             "nullable": true
           },
+          "ppath": {
+            "type": "string",
+            "nullable": true
+          },
           "ppicture": {
             "type": "string",
+            "format": "byte",
             "nullable": true
           },
           "pdescription": {

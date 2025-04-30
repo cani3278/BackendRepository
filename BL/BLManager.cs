@@ -12,6 +12,7 @@ namespace BL
 {
     public class BLManager : IBL
     {
+        public string Path { get; init; }
         public IBLCustomer Customers { get; set; }
         public IBLProducts Products { get; set; }
         public IBLOrders Orders { get; set; }
@@ -19,7 +20,7 @@ namespace BL
 
         public IBLEmployee Employees { get; set; }
 
-        public BLManager()
+        public BLManager()// string path)
         {
             IDal dal = new DalManager();
             Customers = new BLCustomerService(dal);

@@ -15,8 +15,8 @@ namespace BL.Models
         public string OrderDate { get; set; }
         public int CustId { get; set; }
         public int EmpId { get; set; }
-        public string? EmpEmail { get; set; }
-        public string? EmpName { get; set; }
+        public string? EmailToConnection { get; set; }
+        public string? NameToConnection { get; set; }
         public string? PaymentType { get; set; }
         public bool? Sent { get; set; }
         //public /*virtual*/ ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
@@ -36,8 +36,8 @@ namespace BL.Models
             this.OrderDate = o.OrderDate;
             this.PaymentType = o.PaymentType;
             this.Sent = o.Sent;
-            this.EmpEmail = empEmail;
-            this.EmpName = empName;
+            this.EmailToConnection = empEmail;
+            this.NameToConnection = empName;
         }
         override
         public  string ToString()
