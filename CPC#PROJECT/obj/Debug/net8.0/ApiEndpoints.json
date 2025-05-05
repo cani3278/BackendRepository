@@ -130,6 +130,22 @@
     ]
   },
   {
+    "ContainingType": "CPC_PROJECT.Controllers.ImgController",
+    "Method": "UploadFile",
+    "RelativePath": "api/Img/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CPC_PROJECT.Controllers.OrderDetailsController",
     "Method": "Get",
     "RelativePath": "api/OrderDetails/GetAll",
@@ -291,22 +307,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "CPC_PROJECT.Controllers.ProductsController",
-    "Method": "UploadFile",
-    "RelativePath": "api/Products/AddFile",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "file",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "CPC_PROJECT.Controllers.ProductsController",

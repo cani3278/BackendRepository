@@ -227,6 +227,38 @@
         }
       }
     },
+    "/api/Img/upload": {
+      "post": {
+        "tags": [
+          "Img"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/OrderDetails/GetAll": {
       "get": {
         "tags": [
@@ -567,38 +599,6 @@
         }
       }
     },
-    "/api/Products/AddFile": {
-      "post": {
-        "tags": [
-          "Products"
-        ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "file": {
-                    "type": "string",
-                    "format": "binary"
-                  }
-                }
-              },
-              "encoding": {
-                "file": {
-                  "style": "form"
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Products/Update": {
       "put": {
         "tags": [
@@ -913,13 +913,8 @@
             "type": "string",
             "nullable": true
           },
-          "ppath": {
-            "type": "string",
-            "nullable": true
-          },
           "ppicture": {
             "type": "string",
-            "format": "byte",
             "nullable": true
           },
           "pdescription": {

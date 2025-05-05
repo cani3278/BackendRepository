@@ -30,40 +30,40 @@ namespace CPC_PROJECT.Controllers
            // await UploadFile(productPicture);
             return products.Add(p);
         }
-        [HttpPost("AddFile")]
-        public async Task<IActionResult> UploadFile(IFormFile file)
-        {
-            if (file == null || file.Length == 0)
-                return BadRequest("No file uploaded.");
+        //[HttpPost("AddFile")]
+        //public async Task<IActionResult> UploadFile(IFormFile file)
+        //{
+        //    if (file == null || file.Length == 0)
+        //        return BadRequest("No file uploaded.");
 
-            var uploads = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
-            var uniqueFileName = Guid.NewGuid().ToString().Substring(0, 8) + Path.GetExtension(file.FileName);
+        //    var uploads = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+        //    var uniqueFileName = Guid.NewGuid().ToString().Substring(0, 8) + Path.GetExtension(file.FileName);
 
-            string folderPath;
+        //    string folderPath;
 
-            if (file.ContentType.StartsWith("image/"))
-            {
-                folderPath = Path.Combine(uploads, "IMG");
-            }
-            else
-            {
-                folderPath = Path.Combine(uploads, "FILES");
-            }
+        //    if (file.ContentType.StartsWith("image/"))
+        //    {
+        //        folderPath = Path.Combine(uploads, "IMG");
+        //    }
+        //    else
+        //    {
+        //        folderPath = Path.Combine(uploads, "FILES");
+        //    }
 
-            if (!Directory.Exists(folderPath))
-            {
-                Directory.CreateDirectory(folderPath);
-            }
+        //    if (!Directory.Exists(folderPath))
+        //    {
+        //        Directory.CreateDirectory(folderPath);
+        //    }
 
-            var filePath = Path.Combine(folderPath, uniqueFileName);
+        //    var filePath = Path.Combine(folderPath, uniqueFileName);
 
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await file.CopyToAsync(stream);
-            }
+        //    using (var stream = new FileStream(filePath, FileMode.Create))
+        //    {
+        //        await file.CopyToAsync(stream);
+        //    }
 
-            return Ok(new { filePath = $"/{(file.ContentType.StartsWith("image/") ? "IMG" : "FILES")}/{uniqueFileName}" });
-        }
+        //    return Ok(new { filePath = $"/{(file.ContentType.StartsWith("image/") ? "IMG" : "FILES")}/{uniqueFileName}" });
+        //}
 
         [HttpPut("Update")]
         public List<BLProduct> Update(BLProduct p)
