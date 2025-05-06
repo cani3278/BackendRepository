@@ -100,21 +100,55 @@ namespace BL.Services
 
             foreach (var item in dallist)
             {
-                string email = Dal.Customers.Get().ToList().Find(cust=>cust.CustId==item.CustId).CustEmail;
+                if (!(bool)item.Sent)
+                {
+string email = Dal.Customers.Get().ToList().Find(cust=>cust.CustId==item.CustId).CustEmail;
                 string name = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustName;
                 bllist.Add(new BLOrder(item, email, name));
+                }
+                
             }
             return bllist;
         }
-        
+        public List<BLOrder> GetOldsForEmployee(int empId)
+        {
+            List<Order> dallist = Dal.Orders.GetForEmployee(empId);
+            List<BLOrder> bllist = new();
+
+            foreach (var item in dallist)
+            {
+                if (!(bool)item.Sent)
+                {
+                string email = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustEmail;
+                string name = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustName;
+                bllist.Add(new BLOrder(item, email, name));
+                }
+             
+            }
+            return bllist;
+        }
+
         public List<BLOrder> GetNews()
         {
-            throw new NotImplementedException();
+            List<Order> dallist = Dal.Orders.Get();
+            List<BLOrder> bllist = new();
+
+            foreach (var item in dallist)
+            {
+                if (!(bool)item.Sent)
+                {
+                    string email = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustEmail;
+                    string name = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustName;
+                    bllist.Add(new BLOrder(item, email, name));
+                }
+
+            }
+            return bllist;
         }
         //the employee update about  sending the order
-        public void UpdateSending(int orderId)
+        public void UpdateSending(int orderId,int empId)
         {
-            Dal.Orders.UpdateSending(orderId);
+            Dal.Orders.UpdateSending(orderId, empId);
             //List<OrderDetail> sendingProducts = Dal.Orders.Get().ToList().Find(p => p.OrderId == orderId).orderdetails;
             //Dal.Products.UpdateAmount(prodId);
         }

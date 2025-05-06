@@ -441,7 +441,7 @@
         }
       }
     },
-    "/api/Orders/updateSending/{orderId}": {
+    "/api/Orders/updateSending/{orderId}/{empId}": {
       "put": {
         "tags": [
           "Orders"
@@ -449,6 +449,15 @@
         "parameters": [
           {
             "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "empId",
             "in": "path",
             "required": true,
             "schema": {

@@ -61,9 +61,11 @@ namespace Dal.Services
             throw new NotImplementedException();
         }
 
-        public void UpdateSending(int orderId)
+        public void UpdateSending(int orderId, int empId)
         {
-            dbcontext.Orders.ToList().Find(e => e.OrderId == orderId).Sent =true;
+            Order o = dbcontext.Orders.ToList().Find(e => e.OrderId == orderId);
+            o.Sent =true;
+            o.EmpId = empId;
             dbcontext.SaveChanges();
         }
 

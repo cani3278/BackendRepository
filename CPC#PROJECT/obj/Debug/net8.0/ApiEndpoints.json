@@ -263,13 +263,18 @@
   {
     "ContainingType": "CPC_PROJECT.Controllers.OrdersController",
     "Method": "updateSending",
-    "RelativePath": "api/Orders/updateSending/{orderId}",
+    "RelativePath": "api/Orders/updateSending/{orderId}/{empId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "empId",
         "Type": "System.Int32",
         "IsRequired": true
       }

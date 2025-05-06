@@ -18,7 +18,7 @@ namespace Dal.Api
         //void Create(Order o, List<OrderDetail> od);
         int Create(Order o);
         void Delete();
-        void UpdateSending(int orderId);
+        void UpdateSending(int orderId,int empId);
 
 
     }

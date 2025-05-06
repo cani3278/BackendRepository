@@ -13,7 +13,7 @@ namespace BL.Api
         //void Add(BLOrder bLOrder);
         int Add(int custId);
         List<BLOrder> addDetails(List<BLOrderDetail> list,int orderId);
-        void UpdateSending(int orderId);
+        void UpdateSending(int orderId, int empId);
         List<BLOrder> Get();
         void DeleteAll();
         List<BLOrder> GetNews();

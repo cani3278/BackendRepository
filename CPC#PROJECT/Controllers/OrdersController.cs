@@ -45,11 +45,11 @@ namespace CPC_PROJECT.Controllers
 
         }
         //update
-        [HttpPut("updateSending/{orderId}")]
-        public void updateSending(int orderId)
+        [HttpPut("updateSending/{orderId}/{empId}")]
+        public void updateSending(int orderId, int empId)
         {
             
-             orders.UpdateSending(orderId);
+             orders.UpdateSending(orderId,empId);
 
         }
 
