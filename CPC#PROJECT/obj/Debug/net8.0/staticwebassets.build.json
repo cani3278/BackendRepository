@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RHogNBTjGVRuSAE8HH68QubalD/YDY4RHYjNqXtbwX0=",
+  "Hash": "oKam7cWZ6fsZCRcl/Qt229nYzARpNtSGL8ps/sXbOOA=",
   "Source": "Server",
   "BasePath": "_content/Server",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\0bbd27eb.jpg"
+    },
+    {
+      "Identity": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\35462104.jpg",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "img/35462104#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1zdkz96vu2",
+      "Integrity": "vWqZpjmhfexi8vq0SMHWjgKV6rKRiVWzLqPta8M34n0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\35462104.jpg"
     },
     {
       "Identity": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\47acf0e6.jpg",
@@ -452,6 +473,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-OEoZsHo9cuoKwAhMznIOkNEG75chZHrwCkQ0AHeep9c="
+        }
+      ]
+    },
+    {
+      "Route": "img/35462104.1zdkz96vu2.jpg",
+      "AssetFile": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\35462104.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "886222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vWqZpjmhfexi8vq0SMHWjgKV6rKRiVWzLqPta8M34n0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 12:14:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1zdkz96vu2"
+        },
+        {
+          "Name": "label",
+          "Value": "img/35462104.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vWqZpjmhfexi8vq0SMHWjgKV6rKRiVWzLqPta8M34n0="
+        }
+      ]
+    },
+    {
+      "Route": "img/35462104.jpg",
+      "AssetFile": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\35462104.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "886222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vWqZpjmhfexi8vq0SMHWjgKV6rKRiVWzLqPta8M34n0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 12:14:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vWqZpjmhfexi8vq0SMHWjgKV6rKRiVWzLqPta8M34n0="
         }
       ]
     },
