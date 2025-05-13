@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\0a7eab75.jpg",
+      "PackagePath": "staticwebassets\\img\\0a7eab75.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\0bbd27eb.jpg",
+      "PackagePath": "staticwebassets\\img\\0bbd27eb.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\35462104.jpg",
+      "PackagePath": "staticwebassets\\img\\35462104.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\47acf0e6.jpg",
+      "PackagePath": "staticwebassets\\img\\47acf0e6.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\4b630484.jpg",
+      "PackagePath": "staticwebassets\\img\\4b630484.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\909d2f4c.jpg",
+      "PackagePath": "staticwebassets\\img\\909d2f4c.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\b12d3191.jpg",
+      "PackagePath": "staticwebassets\\img\\b12d3191.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\b3bd6f40.jpg",
+      "PackagePath": "staticwebassets\\img\\b3bd6f40.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\bbb9f4d9.jpg",
+      "PackagePath": "staticwebassets\\img\\bbb9f4d9.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\e8b1a4f2.jpg",
+      "PackagePath": "staticwebassets\\img\\e8b1a4f2.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\shutterstock_796627.jpg",
+      "PackagePath": "staticwebassets\\img\\shutterstock_796627.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\מפתח שבדי.jpg",
+      "PackagePath": "staticwebassets\\img\\מפתח שבדי.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\מפתח שוודי.jpg",
+      "PackagePath": "staticwebassets\\img\\מפתח שוודי.jpg"
+    },
+    {
+      "Id": "D:\\GitHubמה שקיים ב - Copy\\c#\\CPC#PROJECT\\wwwroot\\img\\מקדחה.jpg",
+      "PackagePath": "staticwebassets\\img\\מקדחה.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Server.props",
+      "PackagePath": "build\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Server.props",
+      "PackagePath": "buildMultiTargeting\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Server.props",
+      "PackagePath": "buildTransitive\\Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
