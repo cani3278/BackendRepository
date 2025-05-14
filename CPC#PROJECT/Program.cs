@@ -35,12 +35,7 @@ namespace CPC_PROJECT
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-            //add picture
-            //app.UseStaticFiles(new StaticFileOptions
-            //{
-            //    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Images")),
-            //    RequestPath = "/Images"
-            //});
+           
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

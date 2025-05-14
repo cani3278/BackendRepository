@@ -28,13 +28,13 @@ namespace BL.Services
                 Ephone = bLEmp.Ephone,
             };
             dal.Employees.Add(e);
-            return new BLEmployee(dal.Employees.getByID(bLEmp.EmpId));
+            return new BLEmployee(dal.Employees.getByID(bLEmp.EmpId).Result);
         }
 
         public List<BLEmployee> Get()
         {
             List<BLEmployee> blList = new();
-            foreach (var emp in dal.Employees.getAll())
+            foreach (var emp in dal.Employees.getAll().Result)
             {
                 BLEmployee e = new BLEmployee()
                 {
@@ -51,7 +51,7 @@ namespace BL.Services
 
         public BLEmployee GetById(int id)
         {
-            Employee e = dal.Employees.getByID(id);
+            Employee e = dal.Employees.getByID(id).Result;
           return new BLEmployee()
           {
               EmpId = e.EmpId,

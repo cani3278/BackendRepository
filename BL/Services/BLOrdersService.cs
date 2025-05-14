@@ -47,7 +47,7 @@ namespace BL.Services
                 Dal.Products.UpdateSum(item.ProdId, item.Count);
                 dalList.Add(od);
             }
-            Dal.OrderDetail.addDetailsForOrder(dalList);
+            Dal.OrderDetail.AddDetailsForOrder(dalList);
             return Get();
         }
 
@@ -73,8 +73,8 @@ namespace BL.Services
 
                 if (item.EmpId.HasValue) // Check if EmpId has a value
                 {
-                    email = Dal.Employees.getByID(item.EmpId.Value).Egmail; // Use .Value to access the int value
-                    name = Dal.Employees.getByID(item.EmpId.Value).Ename;
+                    email = Dal.Employees.getByID(item.EmpId.Value).Result.Egmail; // Use .Value to access the int value
+                    name = Dal.Employees.getByID(item.EmpId.Value).Result.Ename;
                 }
 
                 bllist.Add(new BLOrder(item, email, name));
@@ -94,8 +94,8 @@ namespace BL.Services
 
                 if (item.EmpId.HasValue) // Check if EmpId has a value
                 {
-                    email = Dal.Employees.getByID(item.EmpId.Value).Egmail; // Use .Value to access the int value
-                    name = Dal.Employees.getByID(item.EmpId.Value).Ename;
+                    email = Dal.Employees.getByID(item.EmpId.Value).Result.Egmail; // Use .Value to access the int value
+                    name = Dal.Employees.getByID(item.EmpId.Value).Result.Ename;
                 }
 
                 bllist.Add(new BLOrder(item, email, name));
@@ -112,8 +112,8 @@ namespace BL.Services
             {
                 if (!(bool)item.Sent)
                 {
-                string email = Dal.Customers.Get().ToList().Find(cust=>cust.CustId==item.CustId).CustEmail;
-                string name = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustName;
+                string email = Dal.Customers.Get().Result.ToList().Find(cust=>cust.CustId==item.CustId).CustEmail;
+                string name = Dal.Customers.Get().Result.ToList().Find(cust => cust.CustId == item.CustId).CustName;
                 bllist.Add(new BLOrder(item, email, name));
                 }
                 
@@ -129,8 +129,8 @@ namespace BL.Services
             {
                 if ((bool)item.Sent)
                 {
-                string email = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustEmail;
-                string name = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustName;
+                string email = Dal.Customers.Get().Result.ToList().Find(cust => cust.CustId == item.CustId).CustEmail;
+                string name = Dal.Customers.Get().Result.ToList().Find(cust => cust.CustId == item.CustId).CustName;
                 bllist.Add(new BLOrder(item, email, name));
                 }
              
@@ -146,8 +146,8 @@ namespace BL.Services
             foreach (var item in dallist)
             {
                 if (item.Sent == false && item.EmpId == 0) { 
-                    string email = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustEmail;
-                    string name = Dal.Customers.Get().ToList().Find(cust => cust.CustId == item.CustId).CustName;
+                    string email = Dal.Customers.Get().Result.ToList().Find(cust => cust.CustId == item.CustId).CustEmail;
+                    string name = Dal.Customers.Get().Result.ToList().Find(cust => cust.CustId == item.CustId).CustName;
                     bllist.Add(new BLOrder(item, email, name));
                 }
             }

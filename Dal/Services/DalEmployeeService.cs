@@ -1,5 +1,6 @@
 ﻿using Dal.Api;
 using Dal.newModels;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,35 +17,23 @@ namespace Dal.Services
         {
             Dal = db;
         }
-        public void Add(Employee e)
+        public async Task Add(Employee e)
         {
             Dal.Employees.Add(e);
             Dal.SaveChanges();
         }
 
-        //public Employee AvailableEmployee()
-        //{
-        //    return Dal.Employees.ToList()[0];
-        //}
-
-        public void Delete(Employee e)
+        
+        public async Task<List<Employee>> getAll()
         {
-            throw new NotImplementedException();
+          return await Dal.Employees.ToListAsync();
         }
 
-        public List<Employee> getAll()
-        {
-          return Dal.Employees.ToList();
-        }
-
-        public Employee getByID(int id)
+        public async Task<Employee> getByID(int id)
         {
             return Dal.Employees.ToList().Find(e =>e.EmpId==id);
         }
 
-        public Employee getByName(string name)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

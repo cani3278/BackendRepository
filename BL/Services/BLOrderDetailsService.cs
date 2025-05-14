@@ -64,7 +64,7 @@ namespace BL.Services
         public List<BLOrderDetail> GetForOrderId(int orderId)
         {
             List<BLOrderDetail> list = new();
-            foreach (var item in dal.OrderDetail.detailsForOrder(orderId))
+            foreach (var item in dal.OrderDetail.DetailsForOrder(orderId))
             {
                 BLOrderDetail newbl =new BLOrderDetail(item);
                 var a = dal.Products.Get().Find(p => p.ProdId == item.ProdId);

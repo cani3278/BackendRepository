@@ -18,7 +18,7 @@ namespace Dal.Services
             dbcontext = d;
         }
 
-        public void addDetailsForOrder(List<OrderDetail> list)
+        public void AddDetailsForOrder(List<OrderDetail> list)
         {
             foreach (var item in list)
             {
@@ -28,7 +28,7 @@ namespace Dal.Services
             dbcontext.OrderDetails.ToList();
         }
 
-        public List<OrderDetail> detailsForOrder(int orderId)
+        public List<OrderDetail> DetailsForOrder(int orderId)
         {
             return dbcontext.OrderDetails.ToList().Where(e=>e.OrderId==orderId).ToList();
         }
@@ -38,27 +38,6 @@ namespace Dal.Services
             return dbcontext.OrderDetails.ToList();
         }
 
-
-
-        //public void Create(Order o,List< OrderDetail>  od)
-        //{
-        //    dbcontext.Orders.Add(o);
-        //    od.ForEach(item => dbcontext.OrderDetails.Add(item));
-        //    dbcontext.SaveChanges();
-
-        //}
-
-        //public List<Order> Get()
-        //{
-        // var list=   dbcontext.Orders.Include(x=>x.OrderDetails).ToList();
-        //    var x = list;
-        //    //foreach (var item in list)
-        //    //{
-        //    //    item.OrderDetails = dbcontext.OrderDetails.ToList().Where(i => i.OrderId == item.OrderId).ToList();  
-        //    //}
-        //    return list;
-        //}
-
-
+      
     }
 }

@@ -20,7 +20,7 @@ namespace CPC_PROJECT.Controllers
         [HttpGet("GetAll")]
         public List<BLCustomer> Get()
         {
-            return customers.Get(); //new List<string>() { "sara", "shira", "bracha" };  
+            return customers.Get().Result; //new List<string>() { "sara", "shira", "bracha" };  
         }
         //logIn
         [HttpGet("logIn/{id}/{name}")]

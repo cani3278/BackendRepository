@@ -9,7 +9,8 @@ namespace Dal.Api
 {
    public interface IDalCustomers
     {
-        List<Customer> Get();
+        Task<List<Customer>> Get();
+        Task<List<Customer>> GetAsync();
         void Create(Customer c);
         Customer Update(Customer c);
     }

@@ -1,5 +1,6 @@
 ﻿using Dal.Api;
 using Dal.newModels;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,9 +28,14 @@ namespace Dal.Services
             //else return 
         }
 
-        public List<Customer> Get()
+        public async Task< List<Customer>> Get()
         {
             return dbcontext.Customers.ToList();
+        }
+
+        public async Task<List<Customer>> GetAsync()
+        {
+            return await dbcontext.Customers.ToListAsync();
         }
 
         public Customer Update(Customer newC)

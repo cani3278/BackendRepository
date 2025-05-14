@@ -30,14 +30,14 @@ namespace BL.Services
                 CustPhone = newBlCustomer.CustPhone
             };
             dal.Customers.Create(c);
-            return new BLCustomer(dal.Customers.Get().Find(item => item.CustId == newBlCustomer.CustId));
+            return new BLCustomer(dal.Customers.Get().Result.Find(item => item.CustId == newBlCustomer.CustId));
 
         }
 
-        public List<BLCustomer> Get()
+        public async Task<List<BLCustomer>> Get()
         {
             List<BLCustomer> list = new();
-            foreach (var item in dal.Customers.Get())
+            foreach (var item in  dal.Customers.GetAsync().Result)
             {
                 list.Add(new BLCustomer(item));
             }
@@ -48,7 +48,7 @@ namespace BL.Services
         public BLCustomer GetById(int id, string name)
         {
         
-            BLCustomer a = Get().Find(item => item.CustId == id);
+            BLCustomer a = Get().Result.Find(item => item.CustId == id);
             if (a?.CustName == name)
                 return a;
             else return null;
@@ -56,7 +56,7 @@ namespace BL.Services
 
         public BLCustomer Update(BLCustomer newBlCustomer)
         {
-            BLCustomer a = Get().Find(item => item.CustId == item.CustId);
+            BLCustomer a = Get().Result.Find(item => item.CustId == item.CustId);
             if (a == null)
                 return null;
             Customer c = new()
