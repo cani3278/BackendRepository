@@ -14,37 +14,41 @@ namespace CPC_PROJECT.Controllers
         {
             products = manager.Products;
         }
+
         [HttpGet("GetAll")]
-        public List<BLProduct> Get()
+        public IActionResult Get()
         {
-            return products.Get();
+            return Ok(products.Get());
         }
+
         [HttpGet("GetByID/{id}")]
-        public BLProduct GetById(int id)
+        public IActionResult GetById(int id)
         {
-            return products.GetByID(id);
+            return Ok(products.GetByID(id));
         }
+
         [HttpPost("Add")]
-        public async Task<List<BLProduct>> Add(BLProduct p)//,IFormFile productPicture
+        public IActionResult Add(BLProduct p)
         {
-           // await UploadFile(productPicture);
-            return products.Add(p);
+           return Ok(products.Add(p).Result);
         }
        
         [HttpPut("Update")]
-        public List<BLProduct> Update(BLProduct p)
+        public IActionResult Update(BLProduct p)
         {
-            return products.Update(p);
+            return Ok(products.Update(p).Result);
         }
+
         [HttpPut("UpdateAmount")]
-        public List<BLProduct> UpdateAmount(int p,int amount)
+        public IActionResult UpdateAmount(int p,int amount)
         {
-            return products.UpdateAmount(p,amount);
+            return Ok(products.UpdateAmount(p, amount).Result);
         }
+
         [HttpDelete("Delete")]
-        public List<BLProduct> Delete(int p)
+        public IActionResult Delete(int p)
         {
-            return products.DeleteFromList(p);
+            return Ok(products.DeleteFromList(p).Result);
         }
 
 

@@ -45,16 +45,16 @@ namespace CPC_PROJECT.Controllers
         [HttpPost("addToCustomer/{id}/{empId?}")]
         public IActionResult Add(int id,int? empId, [FromBody] List<BLOrderDetail> list)
         {
-            int a = orders.Add(id,empId);
-            return Ok(orders.addDetails(list, a));
+            int a = orders.Add(id,empId).Result;
+            return Ok(orders.AddDetails(list, a).Result);
 
         }
         //update
         [HttpPut("updateSending/{orderId}/{empId}")]
-        public void updateSending(int orderId, int empId)
+        public async void UpdateSending(int orderId, int empId)
         {
             
-             orders.UpdateSending(orderId,empId);
+             await orders.UpdateSending(orderId,empId);
 
         }
         [HttpPut("AssignOrder/{empId}")]

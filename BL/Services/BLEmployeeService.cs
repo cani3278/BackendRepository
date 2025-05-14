@@ -17,24 +17,23 @@ namespace BL.Services
         public BLEmployeeService(IDal dal) { 
             this.dal = dal;
         }
-        public BLEmployee Create(BLEmployee bLEmp)
+        public async Task<BLEmployee> Create(BLEmployee bLEmp)
         {
             Employee e = new()
             {
                 EmpId = bLEmp.EmpId,
-               // EmpNum = bLEmp.EmpNum,
                 Ename = bLEmp.Ename,
                 Egmail = bLEmp.Egmail,
                 Ephone = bLEmp.Ephone,
             };
-            dal.Employees.Add(e);
-            return new BLEmployee(dal.Employees.getByID(bLEmp.EmpId).Result);
+           await dal.Employees.Add(e);
+            return new BLEmployee(dal.Employees.GetByID(bLEmp.EmpId).Result);
         }
 
         public List<BLEmployee> Get()
         {
             List<BLEmployee> blList = new();
-            foreach (var emp in dal.Employees.getAll().Result)
+            foreach (var emp in dal.Employees.GetAll().Result)
             {
                 BLEmployee e = new BLEmployee()
                 {
@@ -51,7 +50,7 @@ namespace BL.Services
 
         public BLEmployee GetById(int id)
         {
-            Employee e = dal.Employees.getByID(id).Result;
+            Employee e = dal.Employees.GetByID(id).Result;
           return new BLEmployee()
           {
               EmpId = e.EmpId,

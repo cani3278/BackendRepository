@@ -10,9 +10,9 @@ namespace Dal.Api
    public interface IDalOrderDetails
     {
 
-        List<OrderDetail> DetailsForOrder(int orderId);
-        List<OrderDetail> GetAll();
-        void AddDetailsForOrder(List<OrderDetail> list);
+       List<OrderDetail> DetailsForOrder(int orderId);
+       List<OrderDetail> GetAll();
+        Task AddDetailsForOrder(List<OrderDetail> list);
 
 
     }

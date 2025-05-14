@@ -11,13 +11,13 @@ namespace CPC_PROJECT.Controllers
         IBLOrderDetails orderDetails;// = new BlPatientService();
         public OrderDetailsController(IBL manager)
         {
-            orderDetails = manager.OrderDetails;// כאן קבלנו אוביקט שהוא שרות של פצינטים
+            orderDetails = manager.OrderDetails;
         }
         // להחזיר רשימת כל ההזמנות
         [HttpGet("GetAll")]
-        public List<BLOrderDetail> Get()
+        public IActionResult Get()
         {
-            return orderDetails.GetAll(); //new List<string>() { "sara", "shira", "bracha" };  
+            return Ok(orderDetails.GetAll());
         }
 
         [HttpGet("GetDetailsForOrder/{id}")]
@@ -25,16 +25,7 @@ namespace CPC_PROJECT.Controllers
         {
             return Ok(orderDetails.GetForOrderId(id));
         }
-        ////add
-        //[HttpPost("addToCustomer/{id}")]
-        //public IActionResult add(int id, [FromBody] BLOrder newOrder)
-        //{
-        //    orders.Add(newOrder);
-        //    return Ok(orders.GetForCustomer(id));
-
-        //}
-
-
+        
 
 
 

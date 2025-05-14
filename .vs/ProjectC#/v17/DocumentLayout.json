@@ -3,79 +3,64 @@
   "WorkspaceRootPath": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\dal\\api\\idalproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idalproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\cpc#project\\controllers\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|solutionrelative:cpc#project\\controllers\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\dal\\api\\idalorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idalorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\cpc#project\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|solutionrelative:cpc#project\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\dal\\api\\idalordedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idalordedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\cpc#project\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|solutionrelative:cpc#project\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\dal\\api\\idalemolyee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idalemolyee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\cpc#project\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|solutionrelative:cpc#project\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\dal\\api\\idalcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idalcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\dal\\api\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|solutionrelative:dal\\api\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\models\\blemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\models\\blemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\models\\blcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\models\\blcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\api\\iblorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\api\\iblorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\api\\iblorderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\api\\iblorderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\api\\iblemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\api\\iblemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\api\\iblcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\api\\iblcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\api\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\api\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\dal\\services\\dalcustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|solutionrelative:dal\\services\\dalcustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\cpc#project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|solutionrelative:cpc#project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\dal\\newmodels\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24F91DCC-87A6-44C2-82C4-9A126520A229}|Dal\\Dal.csproj|solutionrelative:dal\\newmodels\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\services\\blcustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\services\\blcustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\cpc#project\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|solutionrelative:cpc#project\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\cpc#project\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB7B744F-C3DD-4F9A-88DA-A28F57785A03}|CPC#PROJECT\\Server.csproj|solutionrelative:cpc#project\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\services\\blcustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\services\\blcustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\api\\iblcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\api\\iblcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\api\\iblemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\api\\iblemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\services\\blemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\services\\blemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\services\\blorderdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\services\\blorderdetailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\api\\iblorderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\api\\iblorderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\services\\blordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\services\\blordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\services\\blproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\services\\blproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|d:\\github\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - copy\\c#\\bl\\api\\iblproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA32BAB7-82F1-4629-B572-6659E8A10126}|BL\\BL.csproj|solutionrelative:bl\\api\\iblproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,246 +75,196 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IDalProducts.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalProducts.cs",
-              "RelativeDocumentMoniker": "Dal\\Api\\IDalProducts.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalProducts.cs",
-              "RelativeToolTip": "Dal\\Api\\IDalProducts.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:56:14.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IDalOrders.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalOrders.cs",
-              "RelativeDocumentMoniker": "Dal\\Api\\IDalOrders.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalOrders.cs",
-              "RelativeToolTip": "Dal\\Api\\IDalOrders.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:56:10.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IDalOrdeDetails.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalOrdeDetails.cs",
-              "RelativeDocumentMoniker": "Dal\\Api\\IDalOrdeDetails.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalOrdeDetails.cs",
-              "RelativeToolTip": "Dal\\Api\\IDalOrdeDetails.cs",
+              "Title": "Utility.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\Utility.cs",
+              "RelativeDocumentMoniker": "CPC#PROJECT\\Controllers\\Utility.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\Utility.cs*",
+              "RelativeToolTip": "CPC#PROJECT\\Controllers\\Utility.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:56:08.573Z",
+              "WhenOpened": "2025-05-14T12:47:31.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IDalEmolyee.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalEmolyee.cs",
-              "RelativeDocumentMoniker": "Dal\\Api\\IDalEmolyee.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalEmolyee.cs*",
-              "RelativeToolTip": "Dal\\Api\\IDalEmolyee.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "CPC#PROJECT\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "CPC#PROJECT\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:55:59.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDal.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDal.cs",
-              "RelativeDocumentMoniker": "Dal\\Api\\IDal.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDal.cs",
-              "RelativeToolTip": "Dal\\Api\\IDal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:55:53.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BLEmployee.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Models\\BLEmployee.cs",
-              "RelativeDocumentMoniker": "BL\\Models\\BLEmployee.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Models\\BLEmployee.cs",
-              "RelativeToolTip": "BL\\Models\\BLEmployee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:55:37.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BLCustomer.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Models\\BLCustomer.cs",
-              "RelativeDocumentMoniker": "BL\\Models\\BLCustomer.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Models\\BLCustomer.cs",
-              "RelativeToolTip": "BL\\Models\\BLCustomer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:55:35.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IBLOrders.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLOrders.cs",
-              "RelativeDocumentMoniker": "BL\\Api\\IBLOrders.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLOrders.cs*",
-              "RelativeToolTip": "BL\\Api\\IBLOrders.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:55:21.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IBLOrderDetails.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLOrderDetails.cs",
-              "RelativeDocumentMoniker": "BL\\Api\\IBLOrderDetails.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLOrderDetails.cs",
-              "RelativeToolTip": "BL\\Api\\IBLOrderDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:55:19.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IBLEmployee.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLEmployee.cs",
-              "RelativeDocumentMoniker": "BL\\Api\\IBLEmployee.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLEmployee.cs",
-              "RelativeToolTip": "BL\\Api\\IBLEmployee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:55:17.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IBL.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBL.cs",
-              "RelativeDocumentMoniker": "BL\\Api\\IBL.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBL.cs",
-              "RelativeToolTip": "BL\\Api\\IBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T11:55:11.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Program.cs",
-              "RelativeDocumentMoniker": "CPC#PROJECT\\Program.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Program.cs",
-              "RelativeToolTip": "CPC#PROJECT\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:30:50.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "dbcontext.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\newModels\\dbcontext.cs",
-              "RelativeDocumentMoniker": "Dal\\newModels\\dbcontext.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\newModels\\dbcontext.cs",
-              "RelativeToolTip": "Dal\\newModels\\dbcontext.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAiwH4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:39:24.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CustomersController.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\CustomersController.cs",
-              "RelativeDocumentMoniker": "CPC#PROJECT\\Controllers\\CustomersController.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\CustomersController.cs",
-              "RelativeToolTip": "CPC#PROJECT\\Controllers\\CustomersController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAADwvxcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:31:30.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IBLCustomer.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLCustomer.cs",
-              "RelativeDocumentMoniker": "BL\\Api\\IBLCustomer.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLCustomer.cs",
-              "RelativeToolTip": "BL\\Api\\IBLCustomer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:30:49.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAGoJAAAAAAAAAAAgwHcJAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-14T09:29:44.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DalCustomerService.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Services\\DalCustomerService.cs",
-              "RelativeDocumentMoniker": "Dal\\Services\\DalCustomerService.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Services\\DalCustomerService.cs",
-              "RelativeToolTip": "Dal\\Services\\DalCustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:23:56.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BLCustomerService.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLCustomerService.cs",
-              "RelativeDocumentMoniker": "BL\\Services\\BLCustomerService.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLCustomerService.cs",
-              "RelativeToolTip": "BL\\Services\\BLCustomerService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAEwDIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:15:14.062Z",
+              "WhenOpened": "2025-05-14T12:45:52.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IDalCustomers.cs",
-              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalCustomers.cs",
-              "RelativeDocumentMoniker": "Dal\\Api\\IDalCustomers.cs",
-              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\Dal\\Api\\IDalCustomers.cs",
-              "RelativeToolTip": "Dal\\Api\\IDalCustomers.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAoAAAAFAAAAAAAAAA==",
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "CPC#PROJECT\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "CPC#PROJECT\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T09:12:09.223Z",
+              "WhenOpened": "2025-05-14T12:45:25.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "CPC#PROJECT\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "CPC#PROJECT\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwCwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:40:57.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CPC#PROJECT\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CPC#PROJECT\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAtwBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:40:45.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBLCustomer.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLCustomer.cs",
+              "RelativeDocumentMoniker": "BL\\Api\\IBLCustomer.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLCustomer.cs",
+              "RelativeToolTip": "BL\\Api\\IBLCustomer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:38:59.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BLCustomerService.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLCustomerService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\BLCustomerService.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLCustomerService.cs",
+              "RelativeToolTip": "BL\\Services\\BLCustomerService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAlwDoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:37:39.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBLEmployee.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLEmployee.cs",
+              "RelativeDocumentMoniker": "BL\\Api\\IBLEmployee.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLEmployee.cs",
+              "RelativeToolTip": "BL\\Api\\IBLEmployee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:37:10.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BLEmployeeService.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLEmployeeService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\BLEmployeeService.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLEmployeeService.cs",
+              "RelativeToolTip": "BL\\Services\\BLEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:36:16.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBLOrderDetails.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLOrderDetails.cs",
+              "RelativeDocumentMoniker": "BL\\Api\\IBLOrderDetails.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLOrderDetails.cs",
+              "RelativeToolTip": "BL\\Api\\IBLOrderDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:35:52.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BLOrderDetailsService.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLOrderDetailsService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\BLOrderDetailsService.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLOrderDetailsService.cs",
+              "RelativeToolTip": "BL\\Services\\BLOrderDetailsService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:34:55.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BLOrdersService.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLOrdersService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\BLOrdersService.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLOrdersService.cs",
+              "RelativeToolTip": "BL\\Services\\BLOrdersService.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAADwv6UAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:30:50.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BLProductService.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLProductService.cs",
+              "RelativeDocumentMoniker": "BL\\Services\\BLProductService.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Services\\BLProductService.cs",
+              "RelativeToolTip": "BL\\Services\\BLProductService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwFIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:28:17.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBLProducts.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLProducts.cs",
+              "RelativeDocumentMoniker": "BL\\Api\\IBLProducts.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\BL\\Api\\IBLProducts.cs",
+              "RelativeToolTip": "BL\\Api\\IBLProducts.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:24:05.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "CPC#PROJECT\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\GitHub\u05DE\u05D4 \u05E9\u05E7\u05D9\u05D9\u05DD \u05D1 - Copy\\c#\\CPC#PROJECT\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "CPC#PROJECT\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwDwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:19:34.365Z",
               "EditorCaption": ""
             }
           ]

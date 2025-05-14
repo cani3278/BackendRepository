@@ -11,10 +11,10 @@ namespace Dal.Api
     {
 
         List<ProductsSum> Get();
-        List<ProductsSum> RemoveFromActualList(int prodId);
-        List<ProductsSum> UpdateSum(int prodId, int count);
-        List<ProductsSum> Add(ProductsSum product);
-        List<ProductsSum> Update(ProductsSum product);
+       Task<List<ProductsSum>> RemoveFromActualList(int prodId);
+        Task<List<ProductsSum>> UpdateSum(int prodId, int count);
+        Task<List<ProductsSum>> Add(ProductsSum product);
+        Task<List<ProductsSum>> Update(ProductsSum product);
 
     }
 }

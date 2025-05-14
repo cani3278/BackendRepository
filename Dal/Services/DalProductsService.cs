@@ -16,7 +16,7 @@ namespace Dal.Services
             dbcontext = d;
         }
 
-        public List<ProductsSum> Add(ProductsSum product)
+        public async Task<List<ProductsSum>> Add(ProductsSum product)
         {
             dbcontext.ProductsSums.Add(product);
             dbcontext.SaveChanges();
@@ -43,14 +43,14 @@ namespace Dal.Services
         //    dbcontext.ProductsSums.Remove(x);
         //}
 
-        public List<ProductsSum> Update(ProductsSum product)
+        public async Task<List<ProductsSum>> Update(ProductsSum product)
         {
             dbcontext.ProductsSums.Update(product);
             dbcontext.SaveChanges();
             return Get();
           
         }
-        public List<ProductsSum> RemoveFromActualList(int prodId)
+        public async Task<List<ProductsSum>> RemoveFromActualList(int prodId)
         {
             List<ProductsSum> ls = Get();
             var x = ls.Find(i => i.ProdId == prodId);
@@ -60,7 +60,7 @@ namespace Dal.Services
             return Get();
         }
 
-        public List<ProductsSum> UpdateSum(int prodId, int count)
+        public async Task<List<ProductsSum>> UpdateSum(int prodId, int count)
         {
             List<ProductsSum> ls = Get(); 
             var x = ls.Find(i => i.ProdId == prodId);

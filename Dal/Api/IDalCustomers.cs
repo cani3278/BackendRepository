@@ -11,7 +11,7 @@ namespace Dal.Api
     {
         Task<List<Customer>> Get();
         Task<List<Customer>> GetAsync();
-        void Create(Customer c);
-        Customer Update(Customer c);
+        Task Create(Customer c);
+        Task<Customer> Update(Customer c);
     }
 }

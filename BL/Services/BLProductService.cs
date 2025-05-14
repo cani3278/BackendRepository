@@ -18,7 +18,7 @@ namespace BL.Services
             this.dal = dal;
         }
 
-        public List<BLProduct> Add(BLProduct product)
+        public async Task<List<BLProduct>> Add(BLProduct product)
         {
             ProductsSum DalProduct = new()
             {
@@ -30,13 +30,13 @@ namespace BL.Services
                 Pdescription=product.Pdescription,
                 Ppicture=product.Ppicture
             };
-            dal.Products.Add(DalProduct);
+           await dal.Products.Add(DalProduct);
             return Get();
         }
 
-        public List<BLProduct> DeleteFromList(int prod)
+        public async Task<List<BLProduct>> DeleteFromList(int prod)
         {
-            dal.Products.RemoveFromActualList(prod);
+            await dal.Products.RemoveFromActualList(prod);
             return Get();
         }
 
@@ -59,7 +59,7 @@ namespace BL.Services
 
        
 
-        public List<BLProduct> Update(BLProduct product)
+        public async Task<List<BLProduct>> Update(BLProduct product)
         {
             ProductsSum dalProd = new ProductsSum()
             {
@@ -72,14 +72,14 @@ namespace BL.Services
                 Ppicture = product.Ppicture
 
             };
-            dal.Products.Update(dalProd);
+           await dal.Products.Update(dalProd);
             return Get();
             
         }
 
-        public List<BLProduct> UpdateAmount(int prodId, int amount)
+        public async Task<List<BLProduct>> UpdateAmount(int prodId, int amount)
         {
-             dal.Products.UpdateSum(prodId,amount);
+            await dal.Products.UpdateSum(prodId, amount);
             return Get();
         }
     }

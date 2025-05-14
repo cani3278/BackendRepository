@@ -12,9 +12,9 @@ namespace BL.Api
     {
         List<BLProduct> Get();
         BLProduct GetByID(int id);
-        List<BLProduct> DeleteFromList(int prod);
-        List<BLProduct> Add(BLProduct product);
-        List<BLProduct> UpdateAmount(int prodId,int amount);
-        List<BLProduct> Update(BLProduct product);
+        Task<List<BLProduct>> DeleteFromList(int prod);
+        Task<List<BLProduct>> Add(BLProduct product);
+        Task<List<BLProduct>> UpdateAmount(int prodId,int amount);
+        Task<List<BLProduct>> Update(BLProduct product);
     }
 }

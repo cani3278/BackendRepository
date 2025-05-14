@@ -34,7 +34,7 @@ namespace CPC_PROJECT.Controllers
         [HttpPost("AddEmployee")]
         public IActionResult Create([FromBody] BLEmployee newEmp)
         {
-           return Ok(  Employees.Create(newEmp));
+           return Ok(  Employees.Create(newEmp).Result);
         }
 
     }

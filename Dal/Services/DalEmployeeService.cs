@@ -24,12 +24,12 @@ namespace Dal.Services
         }
 
         
-        public async Task<List<Employee>> getAll()
+        public async Task<List<Employee>> GetAll()
         {
           return await Dal.Employees.ToListAsync();
         }
 
-        public async Task<Employee> getByID(int id)
+        public async Task<Employee> GetByID(int id)
         {
             return Dal.Employees.ToList().Find(e =>e.EmpId==id);
         }

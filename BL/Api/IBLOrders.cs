@@ -10,18 +10,16 @@ namespace BL.Api
 {
    public interface IBLOrders
     {
-        //void Add(BLOrder bLOrder);
-        int Add(int custId,int? empId);
-        List<BLOrder> AddDetails(List<BLOrderDetail> list,int orderId);
-        void UpdateSending(int orderId, int empId);
+        Task<int> Add(int custId,int? empId);
+        Task<List<BLOrder>> AddDetails(List<BLOrderDetail> list,int orderId);
+        Task UpdateSending(int orderId, int empId);
         List<BLOrder> Get();
-        void DeleteAll();
+        Task DeleteAll();
         List<BLOrder> GetNews();
         List<BLOrder> GetForCustomer(int custId);
         List<BLOrder> GetForEmployee(int empId);
         List<BLOrder> GetCompletedForEmployee(int empId);
-
-        void AssignOrders(int empId, List<BLOrder> ordList);
+        Task AssignOrders(int empId, List<BLOrder> ordList);
 
 
 

@@ -9,10 +9,10 @@ namespace BL.Api
 {
    public interface IBLCustomer
     {
-        Task<List<BLCustomer>> Get();
+       List<BLCustomer> Get();
        BLCustomer  GetById(int id,string name);
 
-        BLCustomer Create(BLCustomer item);
-        BLCustomer Update(BLCustomer item);
+       Task<BLCustomer> Create(BLCustomer item);
+        Task<BLCustomer> Update(BLCustomer item);
     }
 }

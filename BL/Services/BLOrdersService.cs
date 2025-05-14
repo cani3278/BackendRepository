@@ -19,7 +19,7 @@ namespace BL.Services
             this.Dal = dal;
         }
 
-        public int Add(int custId, int? empId)
+        public async Task<int> Add(int custId, int? empId)
         {
             Order o = new()
             {
@@ -30,10 +30,10 @@ namespace BL.Services
                 //PaymentType = bLOrder.PaymentType,
                 Sent = false
             };
-           return  Dal.Orders.Create(o);
+           return  Dal.Orders.Create(o).Result;
         }
 
-        public List<BLOrder> addDetails(List<BLOrderDetail> list,int orderId)
+        public async Task<List<BLOrder>> AddDetails(List<BLOrderDetail> list,int orderId)
         {
             List<OrderDetail> dalList = new();
             foreach (var item in list)
@@ -44,23 +44,19 @@ namespace BL.Services
                     ProdId=item.ProdId,
                     Count=item.Count
                 };
-                Dal.Products.UpdateSum(item.ProdId, item.Count);
+               await Dal.Products.UpdateSum(item.ProdId, item.Count);
                 dalList.Add(od);
             }
-            Dal.OrderDetail.AddDetailsForOrder(dalList);
+           await Dal.OrderDetail.AddDetailsForOrder(dalList);
             return Get();
         }
 
-        public void deleteAll()
+        public async Task DeleteAll()
         {
-            Dal.Orders.Delete();
+           await Dal.Orders.Delete();
         }
 
-        public void DeleteAll()
-        {
-            throw new NotImplementedException();
-        }
-
+       
         public List<BLOrder> Get()
         {
             List<Order> dallist = Dal.Orders.Get();
@@ -73,8 +69,8 @@ namespace BL.Services
 
                 if (item.EmpId.HasValue) // Check if EmpId has a value
                 {
-                    email = Dal.Employees.getByID(item.EmpId.Value).Result.Egmail; // Use .Value to access the int value
-                    name = Dal.Employees.getByID(item.EmpId.Value).Result.Ename;
+                    email = Dal.Employees.GetByID(item.EmpId.Value).Result.Egmail; // Use .Value to access the int value
+                    name = Dal.Employees.GetByID(item.EmpId.Value).Result.Ename;
                 }
 
                 bllist.Add(new BLOrder(item, email, name));
@@ -94,8 +90,8 @@ namespace BL.Services
 
                 if (item.EmpId.HasValue) // Check if EmpId has a value
                 {
-                    email = Dal.Employees.getByID(item.EmpId.Value).Result.Egmail; // Use .Value to access the int value
-                    name = Dal.Employees.getByID(item.EmpId.Value).Result.Ename;
+                    email = Dal.Employees.GetByID(item.EmpId.Value).Result.Egmail; // Use .Value to access the int value
+                    name = Dal.Employees.GetByID(item.EmpId.Value).Result.Ename;
                 }
 
                 bllist.Add(new BLOrder(item, email, name));
@@ -154,19 +150,18 @@ namespace BL.Services
             return bllist;
         }
         //the employee update about  sending the order
-        public void UpdateSending(int orderId,int empId)
+        public async Task UpdateSending(int orderId,int empId)
         {
-            Dal.Orders.UpdateSending(orderId, empId);
-            //List<OrderDetail> sendingProducts = Dal.Orders.Get().ToList().Find(p => p.OrderId == orderId).orderdetails;
-            //Dal.Products.UpdateAmount(prodId);
+           await Dal.Orders.UpdateSending(orderId, empId);
+           
         }
       
 
-        public void AssignOrders(int empId, List<BLOrder> orderList)
+        public async Task AssignOrders(int empId, List<BLOrder> orderList)
         {
-            orderList.ToList().ForEach(o =>
+            orderList.ToList().ForEach(async o =>
             {
-                Dal.Orders.AssignOrdersToEmp(empId, o.OrderId);
+               await Dal.Orders.AssignOrdersToEmp(empId, o.OrderId);
             });
         }
 

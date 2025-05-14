@@ -10,8 +10,8 @@ namespace BL.Api
    public interface IBLEmployee
     {
         List<BLEmployee> Get();
-       BLEmployee  GetById(int id);
+        BLEmployee  GetById(int id);
 
-        BLEmployee Create(BLEmployee item);
+        Task<BLEmployee> Create(BLEmployee item);
     }
 }

@@ -17,15 +17,14 @@ namespace Dal.Services
             dbcontext = d;
         }
 
-        public void Create(Customer c)
+        public async Task Create(Customer c)
         {
             if (c.CustId != 0 && c.CustName != "string" && c.CustEmail != "string")
             {
 
-                dbcontext.Customers.Add(c);
-                dbcontext.SaveChanges();
-            }
-            //else return 
+                dbcontext.Customers.AddAsync(c);
+               await dbcontext.SaveChangesAsync();
+            } 
         }
 
         public async Task< List<Customer>> Get()
@@ -38,12 +37,12 @@ namespace Dal.Services
             return await dbcontext.Customers.ToListAsync();
         }
 
-        public Customer Update(Customer newC)
+        public async Task<Customer> Update(Customer newC)
         {
             var x = dbcontext.Customers.ToList().Find(i => i.CustId == newC.CustId);
             dbcontext.Customers.Remove(x);
-            dbcontext.Customers.Add(newC);
-            dbcontext.SaveChanges();
+            dbcontext.Customers.AddAsync(newC);
+          await  dbcontext.SaveChangesAsync();
             return newC;
 
         }

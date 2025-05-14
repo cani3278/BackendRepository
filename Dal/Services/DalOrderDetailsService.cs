@@ -18,18 +18,18 @@ namespace Dal.Services
             dbcontext = d;
         }
 
-        public void AddDetailsForOrder(List<OrderDetail> list)
+        public async Task AddDetailsForOrder(List<OrderDetail> list)
         {
             foreach (var item in list)
             {
                 dbcontext.OrderDetails.Add(item);
             }
-            dbcontext.SaveChanges();
-            dbcontext.OrderDetails.ToList();
+           await dbcontext.SaveChangesAsync();
+            dbcontext.OrderDetails.ToListAsync();
         }
 
         public List<OrderDetail> DetailsForOrder(int orderId)
-        {
+        {//async not ok
             return dbcontext.OrderDetails.ToList().Where(e=>e.OrderId==orderId).ToList();
         }
 

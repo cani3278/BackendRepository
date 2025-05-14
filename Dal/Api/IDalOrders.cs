@@ -14,10 +14,10 @@ namespace Dal.Api
         List<Order> GetForCustomer(int custId);
         List<Order> GetForEmployee(int empId);
 
-        int Create(Order o);
-        void Delete();
-        void UpdateSending(int orderId,int empId);
-        void AssignOrdersToEmp(int empId,int ordId);
+       Task<int> Create(Order o);
+        Task Delete();
+        Task UpdateSending(int orderId,int empId);
+        Task AssignOrdersToEmp(int empId,int ordId);
 
 
     }
